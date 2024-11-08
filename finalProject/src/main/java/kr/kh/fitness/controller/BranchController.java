@@ -27,6 +27,9 @@ public class BranchController {
 
 	@Autowired
 	private BranchService branchService;
+	
+	@Autowired
+	private String kakaoApiKey;
 
 	@GetMapping("/info")
 	public String branchInfo(Model model) throws Exception {
@@ -35,6 +38,7 @@ public class BranchController {
 		List<BranchVO> branch_list = branchService.getBranchList();
 
 		model.addAttribute("br_list", branch_list);
+		model.addAttribute("kakaoApiKey", kakaoApiKey);
 
 		return "/branch/info";
 	}
@@ -72,7 +76,7 @@ public class BranchController {
 		model.addAttribute("select", br_name);
 		
 		model.addAttribute("opt_num", opt_num);
-
+		model.addAttribute("kakaoApiKey", kakaoApiKey);
 		return "/branch/info";
 	}
 

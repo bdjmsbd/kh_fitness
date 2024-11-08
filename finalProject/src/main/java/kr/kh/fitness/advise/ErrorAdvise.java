@@ -13,6 +13,7 @@ public class ErrorAdvise {
 	
 	@ExceptionHandler(Exception.class)
 	public String handleException(Exception e, Model model) {
+		e.printStackTrace();
 		log.error("예외 발생: {"+e.getMessage()+"}" ); // 간단한 예외 메시지 출력
 		return "/error/500";
 	}

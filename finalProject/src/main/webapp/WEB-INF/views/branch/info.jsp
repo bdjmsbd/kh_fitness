@@ -16,7 +16,7 @@
 
 <!-- services와 clusterer, drawing 라이브러리 불러오기 -->
 <script type="text/javascript"
-	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4dc87d628f2e532b0812b9e9aae7b2fa&libraries=services,clusterer,drawing"></script>
+	src="//dapi.kakao.com/v2/maps/sdk.js?appkey=${kakaoApiKey }&libraries=services,clusterer,drawing"></script>
 
 <!--  fancy box css -->
 <link rel="stylesheet" type="text/css"
