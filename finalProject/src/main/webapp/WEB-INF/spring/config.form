@@ -1,0 +1,27 @@
+# 사진 저장 위치, git 저장소
+# 본인 Git 저장 경로(본인 경로에 맞게 수정) + 프로젝트 내 저장 경로(고정) 
+# D:\\git\\final_project\\ + project_final\\storage
+file.upload-dir=D:\\git\\final_project\\project_final\\storage
+
+# DB 사용자명 (예 : root)
+db.username=root
+# DB 비번 (예 : root)
+db.password=root
+# gmail 계정
+email.username=bdjmsbd@gmail.com
+# gmail 앱 비번
+email.password=oj
+
+# kakao jdk api key
+kakao.api_key=39
+# kakao rest api key
+kakao.rest_key=ce
+# kakao redirect uri
+kakao.redirect_uri=http://192.168.30.206:8080/fitness/oauth/kakao
+
+# naver Client ID
+naver.client.id=AE
+# naver Client Secret
+naver.client.secret=0xs
+# naver callback url
+naver.callback.url=http://192.168.30.206:8080/fitness/oauth/naver
