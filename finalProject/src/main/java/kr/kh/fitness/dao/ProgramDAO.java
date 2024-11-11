@@ -37,4 +37,5 @@ public interface ProgramDAO {
 
 	EmployeeVO selectEmployee(@Param("bs_num")String bs_num);
 
+	int selectMemberNoShow(@Param("id")String me_id);
 }

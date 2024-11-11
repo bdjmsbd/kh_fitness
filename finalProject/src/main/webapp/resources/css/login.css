@@ -247,3 +247,7 @@
 	margin-top: 40px;
 	font-weight: 100;
 }
+
+.naver__login2, .kakao__login2 {
+	width: 180px;
+}
